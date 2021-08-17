@@ -1,16 +1,100 @@
+
+/*
+メインrgba(157,122,194,1)
+補色rgba(158,193,121,1)#9ec179
+*/
+
+@media (max-width:991px){
+    .profile{
+        background-color:#9ec179;
+        background-repeat: no-repeat;
+        background-position: 0% 100%;
+        background-size: auto 100%;
+        height:100%;
+        width:100%;
+        color:#eee;
+    }
+}
+@media (min-width:992px){
+    .profile{
+        background-image: url("./img/profile.svg");
+        background-repeat: no-repeat;
+        background-position: 0% 100%;
+        background-size: auto 100%;
+        height:100%;
+        width:100%;
+        color:#eee;
+    }
+}
+
 body{
     background-color:white;
 }
 
-header{
-    color: black;
+p{
+    margin:0;
 }
 
-.catch-wrapper{
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+.header-wrapper{
+    background-color: #eee;
+}
+
+.header-wrapper .navbar-brand{
+    font-family: Calibri;
+    font-weight: bold;
+    font-size:40px;
+}
+
+.header-wrapper img{
+    height:80px;
+}
+
+.header-wrapper a{
+    color:#333;
+    font-size: 28px;
+}
+
+.header-wrapper a:hover{
+    color:#888;
+}
+
+
+
+.profile h1{
     color:black;
 }
 
-/*
-メインrgba(157,122,194,1)
-補色rgba(158,193,121,1)
-*/
+.profile h2{
+    font-size:34px;
+}
+
+.profile h4{
+    font-size:18px;
+}
+
+.profile-contents p{
+    margin-left:1rem;
+    text-indent: -1rem;
+    font-size:large;
+}
+
+.profile-contents .row{
+    margin: 0;
+}
+
+.profile-contents a{
+    color:#fff;
+}
+
+.profile-contents a:hover{
+    color:#aaa;
+}
